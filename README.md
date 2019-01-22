@@ -5,7 +5,7 @@ Help document to run PostgreSQL as a Docker Container
 1. You should be familiar with Docker and it's commands;
 2. You should know PostgreSQL Database
 3. You want to install PostgreSQL quick and easy, so you chose Docker;
-> Now you want to find the commands that can help you to get started. So, if you are, then you landed in the right page. The commands are simple and easy. Give it a try!
+> Now you want to find the commands that can help you to get started. So, if you are, then you landed on the right page. The commands are simple and easy. Give it a try!
 
 ## What now?
 ### Pull the image
@@ -22,7 +22,7 @@ docker volume create <volume name>
 ```
 docker run --rm --name <container name> -e POSTGRES_PASSWORD=<give a password> -d -p 5432:5432 -v <put the volume name here>:/var/lib/postgresql/data postgres
 ```
-Now, let's see what those options mean:
+#### Now, let's see what those options mean:
 1. --rm -> If you want Docker to automatically clean up the container and remove the file system when the container exits;
 2. --name -> Name the Container;
 3. -e -> Set the environment variable value. In our case, we are setting the PostgreSQL password. You don't want to use the default password;
