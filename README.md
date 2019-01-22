@@ -2,10 +2,10 @@
 Help document to run PostgreSQL as a Docker Container
 
 ## What this document is about and what you should know before?
-1. You should be familiar with Docker and it' commands;
+1. You should be familiar with Docker and it's commands;
 2. You should know PostgreSQL Database
 3. You want to install PostgreSQL quick and easy, so you chose Docker;
-> Now you want the set of commands that can help you to get started. So, if you are that one, then you landed in the right page. The commands are simple and easy. Give it a try!
+> Now you want to find the commands that can help you to get started. So, if you are, then you landed in the right page. The commands are simple and easy. Give it a try!
 
 ## What now?
 ### Pull the image
