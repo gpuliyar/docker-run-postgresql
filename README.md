@@ -20,7 +20,13 @@ docker volume create <volume name>
 
 ### Final step, run the PostgreSQL
 ```
-docker run --rm --name <container name> -e POSTGRES_PASSWORD=<give a password> -d -p 5432:5432 -v <put the volume name here>:/var/lib/postgresql/data postgres
+docker run --rm \
+        --name <container name> \
+        -e POSTGRES_PASSWORD=<give a password> \
+        -d \
+        -p 5432:5432 \
+        -v <put the volume name here>:/var/lib/postgresql/data \
+        postgres
 ```
 #### Now, let's see what those options mean:
 1. --rm -> If you want Docker to automatically clean up the container and remove the file system when the container exits;
